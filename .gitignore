@@ -1,0 +1,41 @@
+# Python byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution & Build folders
+build/
+dist/
+frontend/dist/
+frontend/node_modules/
+node_modules/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Test & cache outputs
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & uploaded media
+*.db
+*.sqlite3
+backend/app/*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment & secret files
+.env
+.env.local
+*.pem
+*.key
+
+# IDE & OS temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
